@@ -1,0 +1,117 @@
+@import _color
+
+.container-fluid
+  max-width 1500px
+body
+  font-family 'Noto Sans JP', sans-serif;
+
+//-typography
+h1,h2,h3,h4,h5,h6,p
+  font-family 'Noto Sans JP', sans-serif;
+h2
+  font-family 'Noto Sans JP', sans-serif;
+  font-size 2.5rem
+  font-weight 900
+  text-align center
+  color secondary
+  text-shadow 0px 0px 10px primary
+h2 {
+  position: relative;
+  display: inline-block;
+  padding: 0 55px;
+}
+
+h2:before, h2:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  display: inline-block;
+  width: 50px;
+  height: 5px;
+  background-color: primary;
+}
+
+h2:before {
+  left:0;
+}
+h2:after {
+  right: 0;
+}
+
+h3 {
+  font-family 'Noto Sans JP', sans-serif;
+  font-weight 700
+}
+//-TopMovie
+.box1 {
+    padding: 0.2em 0.5em;
+    margin: 2em 0.1em;
+    color: #565656;
+    background: orange;
+    box-shadow: 0px 0px 0px 10px #FFC166;
+    border: dashed 2px #FFAD32;
+    border-radius: 8px;
+}
+
+.box2 {
+    padding: 0.2em 0.5em;
+    margin: 2em 0.1em;
+    color: #565656;
+    background: green;
+    box-shadow: 0px 0px 0px 10px #AFFF66;
+    border: dashed 2px #95FF32;
+    border-radius: 8px;
+}
+.box3 {
+    padding: 0.2em 0.5em;
+    margin: 2em 0.1em;
+    color: #565656;
+    background: lightblue;
+    box-shadow: 0px 0px 0px 10px #68ABFC;
+    border: dashed 2px #368FFB;
+    border-radius: 8px;
+}
+.box4 {
+    padding: 0.2em 0.5em;
+    margin: 2em 0.1em;
+    color: #565656;
+    background: darkblue;
+    box-shadow: 0px 0px 0px 10px #8466FF;
+    border: dashed 2px #5B32FF;
+    border-radius: 8px;
+}
+.box5 {
+    padding: 0.2em 0.5em;
+    margin: 2em 0.1em;
+    color: #565656;
+    background: red;
+    box-shadow: 0px 0px 0px 10px #FF7066;
+    border: dashed 2px #FF4032;
+    border-radius: 8px;
+}
+.bold
+  font-weight: 500
+//-Movie
+.youtube
+  position relative
+  width 100%
+  padding-top 56.25%
+  iframe
+    position absolute
+    top 0
+    right 0
+    width 100% !important
+    height 100% !important
+//-Profile
+.profile-name
+  font-size 2em
+  font-weight 900
+  color secondary
+  text-align center
+#profile-desc
+  font-size 1.5em
+  font-weight 900
+//-footer
+.footer
+  background primary
+  margin auto
