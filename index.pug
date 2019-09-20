@@ -123,7 +123,7 @@ html(lang="ja")
                 "321CrWnifHU",
                 ]
             mixin movie-list(id)
-              <iframe width="400" height="225" src="https://www.youtube.com/embed/#{id}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+              <iframe width="360" height="200" src="https://www.youtube.com/embed/#{id}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
             each id in movieids
               div.col-lg-4.col-md-6(align="center")
                 +movie-list(id)
