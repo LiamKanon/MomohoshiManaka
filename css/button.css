@@ -1,0 +1,117 @@
+@keyframes slide {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: -120px 60px;
+  }
+}
+
+.modal {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: auto;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.6rem 3rem;
+  border: 3px solid black;
+  border-radius: 5px;
+  background: white;
+  box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.message {
+  font-size:1.1rem;
+  margin-bottom: 1.6rem;
+  margin-top: 0;
+}
+.btn_1 {
+  color:black;
+  font-family:inherit;
+  font-size: inherit;
+  background: #FFA59D;
+  padding: 0.3rem 3.4rem;
+  border: 3px solid #FF7066;
+  border-radius: 10px;
+  margin-right: 2.6rem;
+  box-shadow: 0 0 0 #FF7066;
+  transition: all 0.2s;
+  height: 50px;
+  line-height: 35px;
+  width: 100%;
+}
+
+.btn_1:last-child {
+  margin: 0;
+}
+
+.btn_1:hover {
+  box-shadow: 0.4rem 0.4rem 0 #FF7066;
+  transform: translate(-0.4rem, -0.4rem);
+}
+
+.btn_1:active {
+  box-shadow: 0 0 0 #FF7066;
+  transform: translate(0, 0);
+}
+.btn_2 {
+  color:black;
+  font-family:inherit;
+  font-size: inherit;
+  background: #FFD99E;
+  padding: 0.3rem 3.4rem;
+  border: 3px solid #FFC166;
+  border-radius: 10px;
+  margin-right: 2.6rem;
+  box-shadow: 0 0 0 #FFC166;
+  transition: all 0.2s;
+  height: 50px;
+  line-height: 35px;
+  width: 100%;
+}
+
+.btn_2:last-child {
+  margin: 0;
+}
+
+.btn_2:hover {
+  box-shadow: 0.4rem 0.4rem 0 #FFC166;
+  transform: translate(-0.4rem, -0.4rem);
+}
+
+.btn_2:active {
+  box-shadow: 0 0 0 #FFC166;
+  transform: translate(0, 0);
+}
+.btn_3 {
+  color:black;
+  font-family:inherit;
+  font-size: inherit;
+  background: #9EC9FE;
+  padding: 0.3rem 3.4rem;
+  border: 3px solid #68ABFC;
+  border-radius: 10px;
+  margin-right: 2.6rem;
+  box-shadow: 0 0 0 #68ABFC;
+  transition: all 0.2s;
+  height: 50px;
+  line-height: 35px;
+  width: 100%;
+}
+
+.btn_3:last-child {
+  margin: 0;
+}
+
+.btn_3:hover {
+  box-shadow: 0.4rem 0.4rem 0 #68ABFC;
+  transform: translate(-0.4rem, -0.4rem);
+}
+
+.btn_3:active {
+  box-shadow: 0 0 0 #68ABFC;
+  transform: translate(0, 0);
+}
