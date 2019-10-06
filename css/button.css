@@ -115,3 +115,32 @@
   box-shadow: 0 0 0 #68ABFC;
   transform: translate(0, 0);
 }
+.btn_4 {
+  color:black;
+  font-family:inherit;
+  font-size: inherit;
+  background: #EA9CFF;
+  padding: 0.3rem 3.4rem;
+  border: 3px solid #DD66FF;
+  border-radius: 10px;
+  margin-right: 2.6rem;
+  box-shadow: 0 0 0 #DD66FF;
+  transition: all 0.2s;
+  height: 50px;
+  line-height: 35px;
+  width: 100%;
+}
+
+.btn_4:last-child {
+  margin: 0;
+}
+
+.btn_4:hover {
+  box-shadow: 0.4rem 0.4rem 0 #DD66FF;
+  transform: translate(-0.4rem, -0.4rem);
+}
+
+.btn_4:active {
+  box-shadow: 0 0 0 #DD66FF;
+  transform: translate(0, 0);
+}
