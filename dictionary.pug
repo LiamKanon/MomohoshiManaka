@@ -24,10 +24,12 @@ html(lang="ja")
     link(href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:100,300,400,500,700,800,900&display=swap" rel="stylesheet")
     link(rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" integrity="sha384-rtJEYb85SiYWgfpCr0jn174XgJTn4rptSOQsMroFBPQSGLdOC5IbubP6lJ35qoM9" crossorigin="anonymous")
     block font
-  body(style="background: #fefef5;")
-    div.container-fluid
+  body
+    div.container-fluid(style="background:rgba(255,255,255,0.8)")
       //-Header
-      img.img-fluid.fadein(src="./img/header.jpg")
+      img.img-fluid.fadein.mb-5(src="./img/header.jpg")
+      //-title
+      h4.SM(style="font-size:35px; text-align:center") 桃星愛花用語集<br> ながめし編
       //-Initial
       div.row.SM.mt-5(style="font-size:30px") あ行
       -
